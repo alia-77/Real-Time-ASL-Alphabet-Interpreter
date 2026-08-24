@@ -20,11 +20,11 @@ Trained on 13,928 labeled samples across 27 classes (A-Z plus blank). Random For
 
 ## Project structure
 ```
-ASL.ipynb              training pipeline: landmark extraction from labeled images, then model training
-ASL_Detection.py        real-time webcam app, loads the trained model and runs live inference
-asl_landmarks.csv       extracted landmark features and labels used to train the model
-asl_model.pkl           trained Random Forest model
-hand_landmarker.task    MediaPipe's pretrained hand landmark detection model
+ASL.ipynb              # training pipeline: landmark extraction from labeled images, then model training
+ASL_Detection.py       # real-time webcam app, loads the trained model and runs live inference
+asl_landmarks.csv      # extracted landmark features and labels used to train the model
+asl_model.pkl          # trained Random Forest model
+hand_landmarker.task   # MediaPipe's pretrained hand landmark detection model
 ```
 
 ## Run it
